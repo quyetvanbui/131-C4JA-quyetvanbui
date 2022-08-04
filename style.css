@@ -1,228 +1,42 @@
+
+.content{
+    width: 100%;
+    height: 150px;
+    font-size: 25px;
+    color: azure;
+    background-color: blueviolet;
+    line-height: 100px;
+    padding:0 200px;
+}
 .container{
-    width: 100%;
-    height:0 auto;
-}
-.menu{
-    width: 100%;
-    height: 120px;
-    background-color:rgb(24, 148, 33);
-}
-.up{
-    width: 100%;
-    height: 70px;
-    margin: 0 auto;
-}
-.up ul{
-    list-style: none;
-}
-.up ul li{
-   display: inline-block;
-   padding: 0 50px;
-}
-.up ul a{
-    text-decoration: none;
-    font-size: 30px;
-    font-weight:bold ;
-    color: black;
-}
-.About{
-    width: 100%;
-    height: 200px;
-    background-color:rgb(0, 3, 1);
-}
-.About ul{
-    list-style: none;
-}
-.About ul li{
-    display: inline-block;
-    padding:0 550px;
-}
-.About ul li a{
-    text-decoration: none;
-    font-size: 60px;
-    font-weight:bold ;
-    color: rgb(241, 234, 234);
-}
-.img{
-    width: 130%;
-    height:0 auto;
-}
-.Contact{
-    width: 100%;
-    height: 500px;
-    background-color:rgb(0, 3, 1);
-}
-.Contact ul{
-    list-style: none;
-}
-.Contact ul li{
-    display: inline-block;
-    padding:0 550px;
-}
-.Contact ul li a{
-    text-decoration: none;
-    font-size: 60px;
-    font-weight:bold ;
-    color: rgb(16, 182, 41);
-}
-.title ul li{
-    display: inline-block;
-    padding:0 550px;
-}
-.title ul li a{
-    text-decoration: none;
-    font-size: 15px;
-    color: rgb(239, 244, 240);
-    }
-.name{
-    width: 100%;
-    height: 5px;
-    background-color:rgb(190, 193, 191)   
-}
-.folder{
-    width: 100%;
-    height: 200px;
-    background-color:rgb(211, 216, 212)   
-}
-.folder ul{
-    list-style: none;
-}
-.folder ul li{
-    display: inline-block;
-    padding:0 550px;
-}
-.folder ul li a{
-    text-decoration: none;
-    font-size: 60px;
-    font-weight:bold ;
-    color: rgb(8, 20, 10);
-}
-.ul folder li{
-    display: inline-block;
-    padding:50px;
-}
-.name{
-    width: 100%;
-    height: 5px;
-    background-color:rgb(203, 209, 204)   
-}
-.list{
-    width: 100%;
-    height: 400px;
-    background-color:rgb(210, 212, 211)   
-}
-.article{
-    width: 30%;
-    padding: 30%;
-    float: left;
-}
-.subtitle ul li{
-    text-decoration: none;
-    font-size: 30px;
-    color: rgb(2, 12, 4);
-}
-.name{
-    width: 100%;
-    height: 5px;
-    background-color:rgb(112, 116, 113)   
-}
-.fAchievements{
-    width: 100%;
-    height: 200px;
-    background-color:rgb(3, 15, 5)   
-}
-.h1{
-    width: 100%;
-    height: 200px;
-    background-color:rgb(5, 8, 6)   
-}
-.h1 ul{
-    list-style: none;
-}
-.h1 ul li{
-    display: inline-block;
-    padding:0 550px;
-}
-.h1 ul li a{
-    text-decoration: none;
-    font-size: 60px;
-    font-weight:bold ;
-    color: rgb(18, 186, 46);
-}
-
-.right{
-    width: 100%;
-    height: 500px;
-    background-color:rgb(8, 8, 8) 
-}
-.h2{
-    width: 100%;
-    height: 200px;
-    background-color:rgb(216, 218, 217)   
-}
-.h2 ul{
-    list-style: none;
-}
-.h2 ul li{
-    display: inline-block;
-    padding:0 550px;
-}
-.h2 ul li a{
-    text-decoration: none;
-    font-size: 60px;
-    font-weight:bold ;
-    color: rgb(1, 10, 2);
-}
-.body{
-    width: 100%;
-    height: 700px;
-    background-color:rgb(216, 219, 217) 
-}
-.gray {
-    width: 40%;
-    height: 420px;
-    margin: auto;
-    background: rgb(125, 149, 219);
-    margin-top: 40px;
-    
-    
-}
-.gray table tr td {
-    padding-top: 40px;
-}
-
-.gray table label {
-    margin-right: 200px;
-    margin-left: 20px;
     font-size: 20px;
 }
-.gray0 table input {
-    width: 300px;
+.container{ 
+    padding: 0 300px;
+}
+.card{
+    width: 100%;
+    padding:3%;
+    font-size: 20px;
+    border: 1px solid rgb(46, 46, 47);
+   
+}   
+span{
+    font-weight: bold;
+    font-size: 30px;
+    color:rgb(85, 7, 163);
 }
 
-#number {
-    width: 200px;
-}
-#massage {
-    width: 280px;
-}
-button {
-    width: 100px;
+.button{
+    width: 15%; 
     height: 30px;
-    font-weight: bold;
-    font-size: 20px;
+    color: aliceblue;
+    background: rebeccapurple;
+    text-align: center;
 }
-
-.link .link1 {
-    line-height: 50px;
-    height: 50px;
-    background-color: #4caf50;
-    font-weight: bold;
-}
-.link .link2 {
-    line-height: 80px;
-    height: 80px;
-    background-color: rgb(2, 12, 2);
-    color: #4caf50;
-    font-size: 27px;
+em{
+    width: 15%; 
+    height: 30px;
+    background: rgb(210, 191, 228);
+    text-align: center;
 }
