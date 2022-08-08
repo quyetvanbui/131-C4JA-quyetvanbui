@@ -1,0 +1,23 @@
+#header{
+    max-width: 960px;
+    margin: 0 auto;
+}
+#title{
+    color: aliceblue;
+    text-align: center;
+    height: 70px;
+    background-color: rgb(8, 81, 81);
+    padding: 10px;
+}
+
+#title:hover{
+    justify-content: center;
+   background-color: rgb(52, 39, 192);
+}
+img{
+    float:right;
+    margin-right: 15px;
+}
+p{
+    font-size: 20px;
+}
