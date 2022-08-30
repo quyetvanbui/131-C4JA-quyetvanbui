@@ -1,0 +1,29 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: 0;
+}
+#header{
+    height: 130px;
+    background-color: rgb(183, 183, 184);
+}
+h1{
+text-align: center;
+}
+p{
+    text-align: center;
+}
+#book1{
+    text-align: center;
+}
+.name{
+    padding:10px;
+}
+.buttom .delete{
+    display: flex;
+    justify-content: right;
+    padding-right: 20px;
+    align-items: center;
+    border: 1px solid purple;
+    flex-direction: row;
+}
