@@ -1,39 +1,103 @@
-.register {
-    width: 500px;
-    padding: 16px;
-    margin: 0 auto;
-    background-color: white;
-    }
-    input[type=text], input[type=password] {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    display: inline-block;
-    border: none;
-    background: #f1f1f1;
-    }
-    input[type=text]:focus, input[type=password]:focus {
-    background-color: #ddd;
-    outline: none;
-    }
-    hr {
-    border: 1px solid #f1f1f1;
-    margin-bottom: 25px;
-    }
-    .submit {
-    background-color: #0900bd;
-    color: white;
-    padding: 15px 18px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
-    }
-    .submit:hover {
-    opacity: 1;
-    }
-    .login {
-    background-color: #ffffff;
-    text-align: center;
-    }
+*{
+    margin:0;
+    padding:0;
+    box-sizing:0;
+}
+body{
+    background-color: rgb(220, 240, 251);
+
+ }
+ #header{
+     margin :100px 80px 60px 80px;
+     padding: 25px; 
+     border-radius: 15px;
+     background-color: white;
+     
+ }
+ h1{
+    margin-left: 40px;
+    font-size: 40px;
+ }
+ #nav{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ #nav ul{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+ }
+ #search{
+    height: 40px;
+     border: 1px solid black;
+     padding: 5px;
+     padding-right: 100px;
+     border-radius:5px;
+     margin-left: 30px;
+ }
+ button{
+    margin-top: 30px;
+    background-color: aliceblue;
+ }
+ #nav ul li{
+     list-style: none;
+ }
+ #nav ul li a{
+     text-decoration: none;
+     font-size: 1rem;
+     padding: 10px 50px;
+     color: rgb(15, 11, 11);
+     font-size: 20px;
+ }
+ #nav ul li a:hover{
+     background-color: rgb(150, 150, 251);
+     border-radius: 20px;
+     color: white;
+     transition: 1s;
+ }
+ #container{
+     display: grid;
+     grid-template-columns: auto auto auto;
+     gap: 20px;
+     margin-top: 50px;
+ }
+ .item{
+     padding: 20px;
+     background-color: rgb(251, 253, 253);
+ }
+ .item:hover{
+     border: 1px solid gray;
+     border-radius: 15px; 
+     transform: scale(1.05);
+     transition: 1s;
+ }
+
+ .item a{
+     text-decoration: none;
+     color: black;
+ }
+ .info{
+    font-size: 20px;
+     display: inline-block;
+     margin-bottom: 20px;
+     margin-left: 10px;
+ }
+ .info-self{
+     display: grid;
+     grid-template-columns: auto auto;
+     grid-gap: 5px; 
+     padding-left: 100px;
+     text-align: center;
+     
+ }
+ .info-self a{
+     color: rgb(88, 88, 250);
+     border: 1px solid;
+     border-radius: 15px;
+    
+ }
+ .info-self a:hover{
+     background-color: rgb(112, 112, 254);
+     color: white;
+ }

@@ -1,9 +1,13 @@
-function shoWClicked () {
-    alert('Click')
+let str = "";
+function numberOneTriangle(N){
+  var N = parseInt(N);
+  //tạo độ cao của tam giác
+  for(let i = 0 ;i<N;i++){
+    for(let j=0;j<=i;j++){
+      document.write("*");
+    }
+    document.write("<br />")
+  }
 }
 
-function changeText () {
-    const p = document.getElementsByTagName('p')[0];
-    p.innerHTML ='I changed this text to something';
-    p.style.color ='red';
-}
+numberOneTriangle(2);
